@@ -1,0 +1,7 @@
+
+Date and Time              | Up Time         | Ram Usage | CPU Usage | SSID Data           | Channel Data | Bandwidth Data | Download Data | Upload Data
+Date and Time              | Up Time         | Ram Usage | CPU Usage | SSID Data           | Channel Data | Bandwidth Data | Download Data | Upload Data
+2024-09-12 20:33:58.570591 | 0 gün 00:12:49 | 117196 KB |       |  TurkTelekom_TP71C0 |  Oto(4)      |  Oto           |  4.80 MB    |  0.32 MB
+Date and Time              | Up Time         | Ram Usage | CPU Usage | SSID Data           | Channel Data | Bandwidth Data | Download Data | Upload Data
+Date and Time              | Up Time         | Ram Usage | CPU Usage | SSID Data           | Channel Data | Bandwidth Data | Download Data | Upload Data
+Date and Time              | Up Time         | Ram Usage | CPU Usage | SSID Data           | Channel Data | Bandwidth Data | Download Data | Upload Data
