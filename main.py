@@ -93,16 +93,14 @@ def dl_ul_datapage(driver):# DL ve UL verilerine ulasmak icin gereken sayfaya er
     time.sleep(3)
     
 
-def DOWNLOAD_DATA(driver): # Download Data verisini ceker ve dosyaya yazdirir.
-    downloadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(1) > .table-content:nth-child(13)") # Download Data degerinin adresini belirler.
-    download_data = downloadspeed.text # Belirlenen adresi "download_data" olarak atar.
-    
+def DOWNLOAD_DATA(driver):
+    downloadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(2) > .table-content:nth-child(12)") 
+    download_data = downloadspeed.text 
     return download_data
 
-def UPLOAD_DATA(driver): # Upload Data verisini ceker ve dosyaya yazdirir.
-    uploadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(1) > .table-content:nth-child(12)") # Upload Data degerinin adresini belirler.
-    upload_data = uploadspeed.text # Belirlenen adresi "upload_data" olarak atar.
-    
+def UPLOAD_DATA(driver):
+    uploadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(2) > .table-content:nth-child(13)") 
+    upload_data = uploadspeed.text 
     return upload_data
 
 def refresh_page(driver): # Sayfayi yeniler.
