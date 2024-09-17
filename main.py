@@ -131,18 +131,18 @@ def dl_ul_datapage(driver):
     time.sleep(3)
     systemTrafficButton = driver.find_element(By.CSS_SELECTOR, ".ml2:nth-child(9) .text") 
     systemTrafficButton.click()
-    time.sleep(3)
+    time.sleep(10)
     #------------------------------------------------------------------------------------------#
 
 
     #-------------------------------------DL ve UL Verileri------------------------------------#
 def DOWNLOAD_DATA(driver):
-    downloadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(1) > .table-content:nth-child(13)")
+    downloadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(3) > .table-content:nth-child(13)")
     download_data = downloadspeed.text
     return download_data
 
 def UPLOAD_DATA(driver):
-    uploadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(1) > .table-content:nth-child(12)")
+    uploadspeed = driver.find_element(By.CSS_SELECTOR, "tr:nth-child(3) > .table-content:nth-child(12)")
     upload_data = uploadspeed.text
     return upload_data
 
