@@ -127,8 +127,6 @@ def EXIT(driver): # Arayuzden cikis yapilmasini saglar.
 def CLOSEWEB(driver):
     driver.quit
 
-write_to_file("\nDate and Time              | Up Time         | Ram Usage | CPU Usage | SSID Data           | Channel Data | Bandwidth Data | Download Data | Upload Data")
-
 # Fonksiyonlarin cagrilip uygulanmasi:
 def main():
     driver = webdriver.Chrome(service=Service("C:/Program Files (x86)/chromedriver.exe"))
