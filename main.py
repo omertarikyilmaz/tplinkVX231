@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 output_file = r"C:\Users\owery\OneDrive\Masaüstü\Python\tplinkVx231\logs.txt" # Loglar yolu belirlenmis olan yere yazilir.
 
 def write_to_file(data): # Yolu belirlenmis olan yere ekleme yaparak yazar.
-    with open(output_file, 'a') as file: # output_file olarak tanimlanmis olan txt dosyasani file olarak acip ustune ekleyerek yazar.
+    with open(output_file, 'a', encoding='utf-8') as file: # output_file olarak tanimlanmis olan txt dosyasani file olarak acip ustune ekleyerek yazar.
         file.write(data)
     
 
